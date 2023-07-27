@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Explore</li>
+            <li class="ctn"><a href="#Contact">Contact</a></li>
+        </ul>
+        <!-- 3 lines image for button -->
+        <img src="https://cdn-icons-png.flaticon.com/512/56/56763.png" class="menu-button">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Wonderful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1> 
+            <a href="#" class="ctn">Learn More</a>           
+        </div>
+    </header>
+    <script>
+         const menubutton = document.querySelector('.menu-button'); // for toggle the buttons and the link in mobile view
+        const navlinks = document.querySelector('.nav-links');
+        menubutton.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+    <!-- events -->
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://media.istockphoto.com/id/1189454177/photo/young-hiker-backpacker-female-taking-brake-in-hike-walking-enjoying-khumbu-glacier-everest.jpg?s=612x612&w=0&k=20&c=TccBDePRE5-txvXMCSxtzeaN2A79k7x2Zi1ItlD0lSM=" alt="">
+                    <h4>Everest Camp Track</h4>
+                    <p>Mount Everest is the highest of the Himalayan mountains, and—at 8,850 meters (29,035 feet)—is considered the highest point on Earth. Mount Everest is a peak in the Himalaya mountain range. It is located between Nepal and Tibet, an autonomous region of China</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="column">
+                    <img src="https://assets.headwater.com/000c8a_france_tarn-cevennes_Heather-in-bloom-on--s.jpg" alt="">
+                    <h4>Walking Hoildays</h4>
+                    <p>Walking holidays are one of the oldest forms of tourism known to man. For centuries people have travelled by foot whether for a pilgrimage, to visit friends or family on the other side of a mountain, or simply to be at one with nature.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <!-- explore -->
+        <section class="explore">
+            <div class="explore-content">
+           <h1>Let's Explore This Beautiful World</h1>
+           <p>EXPLORE THE WORLD, DISCOVER YOURSELF, INSPIRE PASSION - TRAVEL ABROAD</p>
+           <a href="#" class="ctn">Learn More</a>
+        </div>
+        </section>
+        <!-- for tour and destinations -->
+        <section class="tours">
+            <div class="row">
+                <div class="column content-col">
+                    <h1>Upcoming Tours And Destination</h1>
+                    <p>Places of natural beauty such as beaches, tropical island resorts, national parks, mountains, deserts and forests, are examples of traditional tourist attractions which people may visit. Cultural tourist attractions can include historical places, sites of significant historic event, monuments, ancient temples, zoos, aquaria, museums and art galleries, botanical gardens, buildings and structures (such as forts, castles, libraries, former prisons, skyscrapers, bridges), theme parks and carnivals, living history museums, public art (sculptures, statues, murals), ethnic enclave communities, historic trains and cultural events. Factory tours, industrial heritage, creative art and crafts workshops are the object of cultural niches like industrial tourism and creative tourism. Many tourist attractions are also landmarks. But sports events such as a soccer game, Formula 1 race or sailing regatta can also attract tourists.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3n1EokO4-PmYjRMSTJjB9K7s_8Sg8-Xr9uA&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHkBGaujafYi_oOMl6oh3Tv7EKb5yvBkR_w&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJZvPoT-2LsYfJ0u7wWF6Y1zUMfc9X-ebQmg&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNWbub9WcQgbRVym9deAmE2NPEnqRPqttxRQ&usqp=CAU" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- for adding footer in the last -->
+        <section class="footer" id="Contact">
+            <p>123 abc India | Phone : 1234567890 | Email : abc@gmail.com</p>
+            <p>Copyright 2023 Adventure</p>
+        </section>
+   
+</body>
+</html>
