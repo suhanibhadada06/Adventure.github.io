@@ -87,7 +87,7 @@ header{
     right: 30px;
     width: 40px;
     cursor: pointer;
-    display: none;  /*sirf mobile m dekhne k leye*/
+    display: none;  /*seen in mobile*/
 }
 /* event */
 section{
@@ -207,31 +207,31 @@ p{
     .navbar{
         padding: 0;
     }
-    .logo{    /*saare icons rigth side aa jaynge*/
+    .logo{    /*move icon to right*/
         position: absolute;
         top: 30px;
         left: 30px;
     }
-    .nav-links{   /*saare icons seedhe ho jaynge or center m aa jaynge*/
+    .nav-links{   
         flex-direction: column;
         width: 100%;
         height: 100vh;
         justify-content: center;
-        background: #484872;   /*background m blue color lane k leye*/
+        background: #484872;   /*background color blue*/
         margin-top: -900px;
         transition: all 0.5s ease;   
     }
     .mobile-menu{
-        margin-top: 0px;   /*3 lines aa jayegi side m*/
-        border-bottom-right-radius: 30%;  /*wo jo fold ho rha h trasnition m */
+        margin-top: 0px;   
+        border-bottom-right-radius: 30%;  
     }
     .nav-links li{
-        margin: 30px auto;  /*space lane k leye*/
+        margin: 30px auto;  
     }
     /* event */
     .row{
         flex-direction: column;
-    }     /*image ko column wise appear krne k leye jb mobile m open ho */
+    }     /*image appear column wise*/
     .row .column{
         margin: 20px auto;
     }
